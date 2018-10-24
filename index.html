@@ -4,35 +4,39 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
   <meta name="author" content="">
-  <title>Portfolio|Lihle Menzeleleli</title>
+  <title>Portfolio | Lihle Menzeleleli</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
 </head>
 
-<body data-spy="scroll" data-target="#topnav">
+<body>
 
-  <div class="navbar navbar-inverse navbar-fixed-top" id="topnav">
-    <div class="container">
-      <div class="navbar-collapse collapse">
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#home">Home</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
-
         </ul>
-
       </div>
     </div>
-  </div>
+  </nav>
 
   <div class="jumbotron" id="home">
     <div class="container">
       <div class="media">
-
         <div class="col-md-12">
           <a href="#" class="pull-right"><img class="media" src="images/myself.jpg" /></a>
           <h1 class="title">Lihle <span>Menzeleleli</span></h1>
@@ -40,7 +44,6 @@
             is all about. Also, I have a passion for solving problems and transforming complication into simplicity. I
             get excited about learning new
             things. A fast learner with strong time management and multi-tasking skills.</p>
-
           <p><a href="#skills" class="btn btn-success btn-lg">Find Out More <i class="icon icon-angle-right"></i></a></p>
         </div>
       </div>
@@ -73,8 +76,8 @@
   <section id="projects">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 pricing-intro">
-          <h2 class="page-headline large text-center">MY PROJECTS</h2>
+        <div class="col-md-12">
+          <h2>MY PROJECTS</h2>
           <h4 class="text-center">Check out my latest projects:</h4>
         </div>
       </div>
@@ -86,15 +89,11 @@
           <div class="panel-heading">
             <h3 class="text-center">Basic Webpage</h3>
           </div>
-
           <a href="#" class="list-group list-group-flush text-center"><img class="media-object" src="images/webpage.png" /></a>
-
           <div class="panel-footer">
             <a class="btn btn-lg btn-block btn-success" href="https://elihle.github.io/basic-webpage2/">View Project</a>
           </div>
         </div>
-
-
       </div>
 
 
@@ -104,8 +103,6 @@
             <h3 class="text-center">Registrations App</h3>
           </div>
           <a href="#" class="list-group list-group-flush text-center"><img class="media-object" src="images/reg.png" /></a>
-
-
           <div class="panel-footer">
             <a class="btn btn-lg btn-block btn-success" href="https://elihle.github.io/registrations/">View Project</a>
           </div>
@@ -115,19 +112,15 @@
 
 
       <div class="col-md-4">
-
         <div class="panel panel-success">
           <div class="panel-heading">
             <h3 class="text-center">Greetings App</h3>
           </div>
           <a href="#" class="list-group list-group-flush text-center"><img class="media-object" src="images/greet.png" /></a>
-
-
           <div class="panel-footer">
             <a class="btn btn-lg btn-block btn-success" href="https://elihle.github.io/greeting/">View Project</a>
           </div>
         </div>
-
       </div>
 
       <div class="col-md-4">
@@ -135,9 +128,7 @@
           <div class="panel-heading">
             <h3 class="text-center">TDD</h3>
           </div>
-
           <a href="#" class="list-group list-group-flush text-center"><img class="media-object" src="images/tdd.png" /></a>
-
           <div class="panel-footer">
             <a class="btn btn-lg btn-block btn-success" href="https://elihle.github.io/bootcamp-tests/">View Project</a>
           </div>
@@ -150,9 +141,7 @@
           <div class="panel-heading">
             <h3 class="text-center">DOM Widgets</h3>
           </div>
-
           <a href="#" class="list-group list-group-flush text-center"><img class="media-object" src="images/dom-tests.png" /></a>
-
           <div class="panel-footer">
             <a class="btn btn-lg btn-block btn-success" href="https://elihle.github.io/dom-intro/">View Project</a>
           </div>
@@ -164,29 +153,23 @@
           <div class="panel-heading">
             <h3 class="text-center">Greetings With PostgreSQL</h3>
           </div>
-
           <a href="#" class="list-group list-group-flush text-center"><img class="media-object" src="images/greetApp.png" /></a>
-
           <div class="panel-footer">
             <a class="btn btn-lg btn-block btn-success" href="https://afternoon-peak-24134.herokuapp.com/">View Project</a>
           </div>
         </div>
       </div>
 
-
       <div class="col-md-4">
         <div class="panel panel-success">
           <div class="panel-heading">
             <h3 class="text-center">Serverside Unit Testing</h3>
           </div>
-
           <a href="#" class="list-group list-group-flush text-center"><img class="media-object" src="images/tests.png" /></a>
-
           <div class="panel-footer">
             <a class="btn btn-lg btn-block btn-success" href="https://travis-ci.com/Elihle">View Project</a>
           </div>
         </div>
-
       </div>
 
       <div class="col-md-4">
@@ -194,15 +177,11 @@
           <div class="panel-heading">
             <h3 class="text-center">WebApp With ExpressJS</h3>
           </div>
-
           <a href="#" class="list-group list-group-flush text-center"><img class="media-object" src="images/express.png" /></a>
-
           <div class="panel-footer">
-            <a class="btn btn-lg btn-block btn-success" href="https://tranquil-tundra-52992.herokuapp.com/">View
-              Project</a>
+            <a class="btn btn-lg btn-block btn-success" href="https://tranquil-tundra-52992.herokuapp.com/">ViewProject</a>
           </div>
         </div>
-
       </div>
 
       <div class="col-md-4">
@@ -210,14 +189,11 @@
           <div class="panel-heading">
             <h3 class="text-center">Tendr-App(hackathon)</h3>
           </div>
-
           <a href="#" class="list-group list-group-flush text-center"><img class="media-object" src="images/tendr.png" /></a>
-
           <div class="panel-footer">
             <a class="btn btn-lg btn-block btn-success" href="http://tendr-fox-five.herokuapp.com/">View Project</a>
           </div>
         </div>
-
       </div>
     </div>
   </section>
@@ -243,7 +219,8 @@
                 </li>
               </ul>
             </div>
-            <p class="copy"> made with <i class="fa fa-heart" style="font: size 15:px;color:red"></i> by Lihle Menzeleleli</p>
+            <p class="copy"> made with <i class="fa fa-heart" style="font: size 15:px;color:red"></i> by Lihle
+              Menzeleleli</p>
 
           </div>
 
@@ -253,8 +230,8 @@
     </footer>
   </section>
 
-  <script src="js/jquery.js"></script>
-  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
 </html>
